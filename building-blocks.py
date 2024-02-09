@@ -25,7 +25,6 @@ def testif(num):
     else:
         print("less than zero")
 
-
 # -------------------------------------------------------------
 # TODO fill with case
 
@@ -33,6 +32,7 @@ def testif(num):
 # ========================================================================================
 # class
 # -------------------------------------------------------------
+#class
 class Apple:
     def __init__(self, color, flavor):
         self.color = color
@@ -40,19 +40,57 @@ class Apple:
 
 
 # ========================================================================================
-# main
+# loops
+# -------------------------------------------------------------
+#while
+def whileloop(num):
+    x = 0
+    while x < num:
+        print("x=" + str(x))
+        x = x + 1
 
+# -------------------------------------------------------------
+#for
+def forloop(num):
+    for x in range(num):
+        print(x)
+
+
+
+
+
+# ========================================================================================
+# main
+# -------------------------------------------------------------
 # function
+
 # greeting("You")
 
 # a, b = twothings("1", "2")
 # print("things are:" + a + "," + b)
-
+# -------------------------------------------------------------
 # if else
-# testif(1)
 
+# testif(1)
+# -------------------------------------------------------------
 # class
-honeycrisp = Apple("red", "sweet")
-fuji = Apple("red", "tart")
-print(honeycrisp.flavor)
-print(fuji.flavor)
+
+# honeycrisp = Apple("red", "sweet")
+# fuji = Apple("red", "tart")
+# print(honeycrisp.flavor)
+# print(fuji.flavor)
+# -------------------------------------------------------------
+# loops
+
+#whileloop(3)
+
+#forloop(3)
+
+
+
+
+
+
+
+
+
